@@ -1,7 +1,14 @@
+html{
+  background-color: greenyellow;
+}
 body
 {
   color: white;
   background:lightseagreen;
+  text-align: center;
+  margin:70px;
+  border-radius: 30px;
+  border:gray 5px ridge;
 }
 span
 {
@@ -9,7 +16,7 @@ span
 }
 #camera , #result
 {
-  border: 2px dashed black;
+  border: 2px ridge black;
   width: 350px;
   height: 300px; 
 }
@@ -41,4 +48,9 @@ label{
   background-color: white;
   border-radius:20px;
   padding:6px;
+}
+.button{
+  color:green;
+  font-size: 14px;
+  font-weight: bold;
 }
